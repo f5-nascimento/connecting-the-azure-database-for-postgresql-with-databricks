@@ -32,10 +32,11 @@ Tutorial passo a passo de como criar um workspace no Azure Databricks e conectá
 - **Confirmar senha**: Repita a senha informada
 > Sua senha não pode conter todo ou parte do nome de logon. Parte do nome de logon é definida como três ou mais caracteres alfanuméricos consecutivos.
 - Clique em **Avançar: Rede >**
+- Em Regras de Firewall
+- Marque a opção *Permitir o acesso público de qualquer serviço do Azure de dentro do Azure para esse servidor*
 - Marque a opção *Adicionar a regra de firewall ao endereço de IP atual*
 - Clique em **Revisar e criar**
 - Clique em **Criar**
-> Permitir o acesso público de qualquer serviço do Azure de dentro do Azure para esse servidor
 ---
 
 ### 3. Crie um Banco de Dados PostgreSQL no Servidor
